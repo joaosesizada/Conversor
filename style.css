@@ -1,0 +1,66 @@
+/* Reset básico */
+body, h1, label, input, button {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000000; /* Preto */
+    color: #e0e0e0; /* Branco suave */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    text-align: center;
+}
+
+h1 {
+    color: #3f1d7c; /* Roxo escuro */
+    margin-bottom: 20px;
+}
+
+label {
+    color: #3f1d7c; /* Roxo mais claro */
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    display: block;
+}
+
+input {
+    border: 2px solid #3f1d7c; /* Roxo mais claro */
+    border-radius: 5px;
+    background-color: #333333; /* Cinza escuro */
+    color: #e0e0e0; /* Branco suave */
+    padding: 10px;
+    width: 300px;
+    font-size: 1em;
+    margin-bottom: 20px;
+}
+
+button {
+    background-color: #3b1c55; /* Roxo escuro */
+    color: #ffffff; /* Branco */
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #3f1d7c; /* Roxo mais claro */
+}
+
+#res {
+    background-color: #222222cb; /* Cinza ainda mais escuro */
+    border: 2px solid #3f1d7c; /* Roxo mais claro */
+    color: #e0e0e0; /* Branco suave */
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 5px;
+    width: 300px;
+}
